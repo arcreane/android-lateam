@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Petit Jeux</string>
+    <string name="app_name">Game Box</string>
     <string name="titre">Bienvenue dans la Game Box !</string>
     <string name="commencer">Appuyez pour commencer !</string>
     <string name="titre_accueil">Choississez votre jeux :</string>

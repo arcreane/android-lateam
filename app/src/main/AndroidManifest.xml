@@ -6,11 +6,11 @@
         android:allowBackup="true"
         android:icon="@mipmap/logo_gamebox"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@mipmap/logo_gamebox"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Test">
-        <activity android:name=".snake"></activity>
-        <activity android:name=".pendu" />
+        android:theme="@style/Theme.Test"
+        android:orientation="vertical">
+
         <activity android:name=".Page_accueil">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,6 +19,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".MainActivity" />
+        <activity android:name=".snake" />
+        <activity android:name=".pendu" />
     </application>
 
 </manifest>
