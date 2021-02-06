@@ -33,8 +33,23 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button snake = findViewById(R.id.snake);
+        ImageView snakeI = findViewById(R.id.img_snake);
 
-
+        snake.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent snakeActivity = new Intent (getApplicationContext(), com.example.test.snake.class);
+                startActivity(snakeActivity);
+            }
+        });
+        snakeI.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent snakeActivity = new Intent (getApplicationContext(), com.example.test.snake.class);
+                startActivity(snakeActivity);
+            }
+        });
 
 
 

@@ -18,17 +18,18 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.459" />
 
+
     <Button
-        android:id="@+id/jeux"
+        android:id="@+id/snake"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/autre_jeux"
+        android:text="@string/snake"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.492"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.874" />
-
 
     <TextView
         android:id="@+id/textView"
@@ -68,5 +69,17 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.064"
         app:srcCompat="@drawable/logo_gamebox" />
+
+    <ImageView
+        android:id="@+id/img_snake"
+        android:layout_width="201dp"
+        android:layout_height="161dp"
+        android:contentDescription="@string/img_snake"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        app:srcCompat="@drawable/snake" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,8 +4,9 @@
     <string name="commencer">Appuyez pour commencer !</string>
     <string name="titre_accueil">Choississez votre jeux :</string>
     <string name="pendu">Pendu</string>
-    <string name="autre_jeux">Autre jeux</string>
+    <string name="snake">Snake</string>
     <string name="imageplay">TODO</string>
     <string name="image_pendu">TODO</string>
     <string name="logo">TODO</string>
+    <string name="img_snake">TODO</string>
 </resources>
