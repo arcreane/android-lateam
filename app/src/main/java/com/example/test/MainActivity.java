@@ -14,7 +14,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         Button pendu = findViewById(R.id.pendu);
         ImageView penduI = findViewById(R.id.img_pendu);
 
@@ -39,14 +38,14 @@ public class MainActivity extends AppCompatActivity {
         snake.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent snakeActivity = new Intent (getApplicationContext(), com.example.test.snake.class);
+                Intent snakeActivity = new Intent (getApplicationContext(), com.example.test.SnakeGame.class);
                 startActivity(snakeActivity);
             }
         });
         snakeI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent snakeActivity = new Intent (getApplicationContext(), com.example.test.snake.class);
+                Intent snakeActivity = new Intent (getApplicationContext(), com.example.test.SnakeGame.class);
                 startActivity(snakeActivity);
             }
         });
